@@ -15,7 +15,7 @@ const Header = () => {
       <div className="flex items-center gap-4">
         <DarkModeSwitch />
         <Link href={"/"} className="flex items-center gap-1 ">
-          <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">
+          <span className="text-2xl font-bold bg-amber-500  py-1 px-2 rounded-lg">
             IMDB
           </span>
           <span className="text-xl hidden sm:inline ">clone</span>
