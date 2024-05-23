@@ -29,13 +29,8 @@ const Home = async ({ searchParams }) => {
     }
     data = await res.json();
   } catch (error) {
-    console.error("Error fetching data:", error.message);
-    return (
-      <div>
-        <h1>Error</h1>
-        <p>Failed to fetch data: {error.message}</p>
-      </div>
-    );
+    
+    console.log(error);
   }
 
   const results = data.results;
